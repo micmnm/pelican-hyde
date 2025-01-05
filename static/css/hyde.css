@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Verdana", system-ui, Helvetica, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -80,7 +80,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Bookerly", "Georgia", serif;
   font-size: 3rem;
 }
 
@@ -145,7 +145,7 @@ a.sidebar-social-item.active:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    top:    1rem;
     left:   1rem;
   }
 }
@@ -160,6 +160,9 @@ a.sidebar-social-item.active:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+}
+body {
+  background-color: #575757;
 }
 
 @media (min-width: 48em) {
@@ -203,7 +206,6 @@ a.sidebar-social-item.active:focus {
 }
 
 
-
 /*
  * Themes
  *
@@ -213,74 +215,35 @@ a.sidebar-social-item.active:focus {
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
+/* Custom gray */
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+  background-color: #454545;
 }
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+.theme-base-0d {
+  color: #E3E3E3;
 }
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
+.theme-base-0d .content a {
+  color: #E3E3E3;
+  text-decoration: underline;
 }
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+.theme-base-0d .content a:hover {
+  /*color: #E3E3E3;*/
+  background-color: #454545;
 }
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
+.theme-base-0d .content {
+  font-size: 12px;
 }
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+.theme-base-0d .post-title,
+.theme-base-0d h1,
+.theme-base-0d h2 {
+  font-family: "Bookerly", "Georgia", serif;
+  color: #fff;
+}
+.theme-base-0d .post-title {
+  font-size: 16px;
+}
+.theme-base-0d .read-more {
+  border: 0px;
+  padding: 0px;
+  font-size: 12px;
 }
