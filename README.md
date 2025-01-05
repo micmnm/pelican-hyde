@@ -1,3 +1,7 @@
+# pelican-hyde custom for mltru
+
+small changes to pelican-hyde theme
+
 # pelican-hyde
 
 The pelican-hyde is a [Pelican](https://github.com/getpelican) theme inspired on the beautiful [Hyde](http://hyde.getpoole.com/) Jekyll theme
