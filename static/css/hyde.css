@@ -247,3 +247,8 @@ body {
   padding: 0px;
   font-size: 12px;
 }
+.theme-base-0d pre {
+  background-color: #454545;
+  line-height: 1.2;
+  padding: 1rem;
+}
